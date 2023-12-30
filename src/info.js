@@ -30,7 +30,7 @@ export const info = {
     },
   ],
   summary:
-    "I have a background in food manufacturing, but I'm always looking to add software development to my workflow. So I gathered my experience, added a programmer education, and want to start developing for full-time.",
+    "I have a background in food manufacturing, but I'm always looking to add software development to my workflow. So I have gathered my experience, added a programmer education, and want to start developing for full-time.",
   soft: ['Teamwork', 'Empathy', 'Responsibility', 'Self-learning'],
   hadr: [
     'HTML',
@@ -71,7 +71,7 @@ export const info = {
       city: 'Boguslav',
       position: 'Cheesemaker',
       about:
-        'Before that I worked in the field of microbiology in Kyiv, so at that time I thoroughly studing a new business from the beginning. My goal was to make the perfect craft cheese, and I worked a lot with foreign artisans.',
+        'Before that I worked in the field of microbiology in Kyiv, so at that time I thoroughly studied a new business from the beginning. My goal was to make the perfect craft cheese, and I worked a lot with foreign artisans.',
     },
   ],
   education: [
