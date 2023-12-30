@@ -1,16 +1,12 @@
+import { Container } from './Container/Container';
+import { MainPart } from './MainPart/MainPart';
+import { Sidebar } from './Sidebar/Sidebar';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <Container>
+      <Sidebar />
+      <MainPart />
+    </Container>
   );
 };
