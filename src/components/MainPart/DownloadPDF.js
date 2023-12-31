@@ -24,7 +24,7 @@ const SvgFill = styled.svg`
   }
 
   rect#background {
-    fill: ${p => p.theme.colors.dark};
+    fill: ${p => p.theme.colors.medium};
   }
 
   g path#P,
@@ -114,12 +114,10 @@ const Svg = () => {
   );
 };
 
-const dowload = () => {};
-
 export const DownloadPDF = () => {
   return (
-    <button onClick={() => dowload()}>
+    <a href="/public/resume.pdf" download>
       <Svg />
-    </button>
+    </a>
   );
 };
