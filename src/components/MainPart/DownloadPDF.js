@@ -116,7 +116,10 @@ const Svg = () => {
 
 export const DownloadPDF = () => {
   return (
-    <a href="/public/resume.pdf" download>
+    <a
+      href="https://raw.githubusercontent.com/AndriiBilyiV/resume/main/public/resume.pdf"
+      download
+    >
       <Svg />
     </a>
   );
